@@ -1,0 +1,53 @@
+/* Complementos da demonstração Humanaize para SCHÜTZ VASITEX. */
+.screens-section{background:#f5f7f7}
+.screen-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.screen-card{min-width:0;overflow:hidden;border:1px solid #e1e6e7;border-radius:12px;background:#fff;box-shadow:0 12px 32px rgba(18,30,40,.055)}
+.screen-card-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;padding:17px 18px 12px}
+.screen-card-head h3{margin:0;color:#232930;font-size:14px;letter-spacing:-.02em}
+.screen-card-head p{margin:4px 0 0;color:#76818a;font-size:10px;line-height:1.5}
+.demo-tag{flex:0 0 auto;padding:5px 7px;border:1px solid #d8eeea;border-radius:99px;background:#eef8f5;color:#177568;font-size:8px;font-weight:900;letter-spacing:.06em;white-space:nowrap}
+.screen-window{margin:0 14px 14px;overflow:hidden;border:1px solid #e3e8e9;border-radius:8px;background:#fbfcfc}
+.screen-chrome{display:flex;align-items:center;gap:6px;min-height:31px;padding:0 10px;border-bottom:1px solid #e8ecec;background:#f2f4f5;color:#77828a;font-size:8px;font-weight:750}
+.screen-chrome .chrome-dot{width:6px;height:6px;border-radius:50%;background:#c5cdd0}
+.screen-chrome .chrome-label{margin-left:6px}
+.screen-main{min-height:206px;padding:15px 15px 16px}
+.screen-toolbar{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-bottom:13px}
+.screen-toolbar small{display:block;margin-bottom:4px;color:#89939a;font-size:7px;font-weight:900;letter-spacing:.09em;text-transform:uppercase}
+.screen-toolbar strong{display:block;color:#283139;font-size:13px;line-height:1.25}
+.screen-chip{padding:5px 7px;border-radius:5px;background:#f0f5f4;color:#42736d;font-size:8px;font-weight:850;white-space:nowrap}
+.screen-rows{display:grid;gap:7px}
+.screen-row{display:grid;grid-template-columns:25px minmax(0,1fr) auto;align-items:center;gap:9px;padding:9px;border:1px solid #e8eded;border-radius:6px;background:#fff}
+.screen-row-no{display:grid;place-items:center;width:24px;height:24px;border-radius:6px;background:#edf5f4;color:#24796f;font-size:8px;font-weight:900}
+.screen-row b{display:block;color:#35404a;font-size:9px;line-height:1.35}
+.screen-row small{display:block;margin-top:2px;color:#8a949c;font-size:7px;line-height:1.4}
+.screen-state{padding:4px 6px;border-radius:99px;background:#edf7f3;color:#38826e;font-size:7px;font-weight:850;white-space:nowrap}
+.objectives{display:grid;gap:8px}
+.objective{padding:9px 10px;border:1px solid #e8eded;border-radius:6px;background:#fff}
+.objective-head{display:flex;justify-content:space-between;gap:8px;color:#35404a;font-size:9px;font-weight:850}
+.objective-head span{color:#59716c;font-size:8px;white-space:nowrap}
+.objective p{margin:4px 0 7px;color:#8a949c;font-size:7px;line-height:1.4}
+.progress-track{height:5px;overflow:hidden;border-radius:99px;background:#e9eeee}
+.progress-track i{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,#e83d74,#ef9413,#159a97,#75b94a)}
+.cycle-summary{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:11px;border:1px solid #e6eceb;border-radius:7px;background:#fff}
+.cycle-summary strong{display:block;color:#34404a;font-size:10px}
+.cycle-summary small{display:block;margin-top:3px;color:#89939a;font-size:7px}
+.cycle-status{padding:5px 7px;border-radius:99px;background:#fff5e5;color:#9c6b1c;font-size:7px;font-weight:900}
+.timeline{display:grid;gap:0;margin:12px 0 0 5px}
+.timeline-row{position:relative;display:grid;grid-template-columns:11px 1fr;gap:8px;padding:0 0 10px;color:#56616b;font-size:8px;line-height:1.4}
+.timeline-row:not(:last-child):before{position:absolute;top:7px;bottom:-2px;left:3px;width:1px;background:#dce5e3;content:""}
+.timeline-dot{position:relative;z-index:1;width:7px;height:7px;margin-top:2px;border:2px solid #159a89;border-radius:50%;background:#fff}
+.feedback-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.feedback-card{padding:10px;border:1px solid #e8eded;border-radius:6px;background:#fff}
+.feedback-card strong{display:block;color:#35404a;font-size:9px}
+.feedback-card span{display:block;margin-top:4px;color:#839098;font-size:7px;line-height:1.45}
+.feedback-callout{margin-top:8px;padding:9px 10px;border-left:2px solid #159a97;border-radius:0 6px 6px 0;background:#eef8f6;color:#59716c;font-size:8px;line-height:1.5}
+.screen-disclaimer{margin:0;padding:0 18px 16px;color:#6e7881;font-size:9px;line-height:1.55}
+.screen-disclaimer b{color:#424d55}
+.footer{border-top:1px solid #e2e7e8;background:#f6f8f8;color:#54616a}
+.footer-grid{grid-template-columns:minmax(125px,170px) minmax(0,1fr);gap:24px;align-items:center}
+.footer img{display:block;width:min(150px,100%);height:auto;margin:0 auto;border-radius:0;background:transparent}
+.footer p{color:#46515a}
+.footer small{color:#74818a}
+.footer a{color:#166c70}
+@media(max-width:700px){.screen-grid{grid-template-columns:1fr}.screen-main{min-height:0}}
+@media(max-width:580px){.screen-card-head{padding:15px 14px 10px}.screen-window{margin:0 10px 12px}.screen-main{padding:12px}.screen-disclaimer{padding:0 14px 14px}.footer-grid{grid-template-columns:1fr;gap:10px}.footer img{width:132px;margin:0 auto}.footer p{text-align:center}.footer small{text-align:center}}

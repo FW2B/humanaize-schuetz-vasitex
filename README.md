@@ -1,14 +1,19 @@
 # Humanaize — demonstração para SCHÜTZ VASITEX
 
-Microsite estático, com marca do produto **Humanaize** e logo fornecido pelo usuário. A FW2B — Frameworks to Business é a desenvolvedora e responsável pela instalação, customização e comercialização, conforme escopo aprovado.
+Microsite estático para apresentar uma proposta conceitual do produto **Humanaize**. A FW2B — Frameworks to Business é a proprietária e desenvolvedora da solução e responde por instalação, customização e comercialização, conforme escopo aprovado.
 
 ## Publicação
 
-Repositório separado da base privada do piloto GES. Compatível com GitHub Pages a partir do branch `main`, raiz `/`. A página deve manter `noindex` e `robots.txt` desautorizando crawlers; essas diretivas reduzem indexação, mas **não controlam acesso**. Não inclua dados internos, nomes, indicadores ou telas de clientes.
+Repositório separado da base privada de desenvolvimento. Compatível com GitHub Pages a partir do branch `main`, diretório `/`. A página mantém `noindex` e `robots.txt` desautorizando crawlers; essas diretivas reduzem indexação, mas **não controlam acesso**. O conteúdo é público e não exige autenticação.
 
 ## Escopo da demonstração
 
-A proposta é conceitual e exclusiva à SCHÜTZ VASITEX. O mockup é sintético, sem métricas de cliente; funcionalidades existentes, frentes em consolidação e roadmap são diferenciados. Não há preço, cronograma contratado, diagnóstico interno, integração ou promessa de resultado.
+A proposta é conceitual e direcionada à SCHÜTZ VASITEX. Mockup e quatro telas ilustrativas foram construídos com dados sintéticos; não reproduzem ambientes ou informações de clientes. As telas não representam dados, processos ou resultados da SCHÜTZ VASITEX. Recursos presentes, frentes em consolidação e roadmap são diferenciados; não há preço, cronograma contratado, diagnóstico interno, integração ou promessa de resultado.
+
+## Identidade visual
+
+- Humanaize é a marca do produto e aparece no cabeçalho com fundo transparente.
+- FW2B é a empresa desenvolvedora e fornecedora; seu logo 3D transparente identifica a autoria no rodapé.
 
 ## Prévia local
 
