@@ -1,19 +1,20 @@
-# Humanaize — demonstração para SCHÜTZ VASITEX
+# Humanaize — proposta para SCHÜTZ VASITEX
 
-Microsite estático para apresentar uma proposta conceitual do produto **Humanaize**. A FW2B — Frameworks to Business é a proprietária e desenvolvedora da solução e responde por instalação, customização e comercialização, conforme escopo aprovado.
+Microsite estático que reapresenta a proposta comercial original para SCHÜTZ VASITEX, mantendo seus textos, layout, interações e seis imagens de produto/telas. A marca do produto é **Humanaize**; a **FW2B — Frameworks to Business** é proprietária e desenvolvedora da solução e responde por instalação, customização e comercialização, conforme escopo aprovado.
 
 ## Publicação
 
-Repositório separado da base privada de desenvolvimento. Compatível com GitHub Pages a partir do branch `main`, diretório `/`. A página mantém `noindex` e `robots.txt` desautorizando crawlers; essas diretivas reduzem indexação, mas **não controlam acesso**. O conteúdo é público e não exige autenticação.
+Repositório separado da base privada de desenvolvimento. Compatível com GitHub Pages no branch `main`, diretório `/`. A página mantém `noindex` e `robots.txt` para reduzir indexação; essas diretivas **não controlam acesso**. O site e seus arquivos são públicos.
 
-## Escopo da demonstração
+## Conteúdo visual
 
-A proposta é conceitual e direcionada à SCHÜTZ VASITEX. Mockup e quatro telas ilustrativas foram construídos com dados sintéticos; não reproduzem ambientes ou informações de clientes. As telas não representam dados, processos ou resultados da SCHÜTZ VASITEX. Recursos presentes, frentes em consolidação e roadmap são diferenciados; não há preço, cronograma contratado, diagnóstico interno, integração ou promessa de resultado.
+As capturas de telas e imagens são os mesmos arquivos utilizados na proposta original e não foram alterados durante a transferência. As telas reais exibem o Humanaize em operação no contexto do GES; não são dados da SCHÜTZ VASITEX. Quem reutilizar estes arquivos deve tratar nomes, indicadores, ciclos e informações internas visíveis como conteúdo do cliente e limitar a divulgação ao contexto autorizado desta proposta.
 
 ## Identidade visual
 
-- Humanaize é a marca do produto e aparece no cabeçalho com fundo transparente.
-- FW2B é a empresa desenvolvedora e fornecedora; seu logo 3D transparente identifica a autoria no rodapé.
+- Humanaize é o produto e aparece no cabeçalho com seu logo transparente.
+- FW2B — Frameworks to Business é a empresa desenvolvedora e fornecedora; o logo 3D transparente identifica a autoria no rodapé.
+- As cores estruturais seguem o azul-marinho, ciano e prata da FW2B, com o gradiente multicolorido do logo Humanaize nos detalhes de produto.
 
 ## Prévia local
 
